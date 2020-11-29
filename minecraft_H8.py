@@ -658,7 +658,7 @@ class MinecraftEnv(gym.Env):
         assert action_input[0] in range(1, self.num_agents+1)
 
         # Parse action input
-        agent_id = action_input[0]
+        # agent_id = action_input[0]
         action = action_input[1]
 
         # # Get current agent state
@@ -694,7 +694,7 @@ class MinecraftEnv(gym.Env):
             else:
                 source = top
                 dest = front
-            above_source = source + np.array([0, 1, 0])
+            # above_source = source + np.array([0, 1, 0])
             dest = np.array(dest, dtype=int)
             source = np.array(source, dtype=int)
 
