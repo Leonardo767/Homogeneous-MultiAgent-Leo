@@ -1,5 +1,5 @@
 import numpy as np
-import minecraft_H8 as minecraft
+import minecraft_H8_render as minecraft
 import time
 from main_Vision import Window, convertEBtoSB
 
