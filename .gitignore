@@ -101,3 +101,10 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+model_H8/
+demo1/
+demo2/
+demo3/
+demo_gifs/
+train_RNN_H8/
